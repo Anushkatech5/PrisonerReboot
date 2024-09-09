@@ -3,12 +3,12 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
 import TopMenu from './components/TopMenu';
-import FirstPopUp from './pages/SecondPopUp';
+import SecondPopUp from './pages/SecondPopUp';
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<FirstPopUp />} />
+      <Route path="/" element={<SecondPopUp />} />
       <Route
         path="/dashboard"
         element={

@@ -1,8 +1,7 @@
-// src/pages/FirstPopUp.js
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const FirstPopUp = () => {
+const SecondPopUp = () => {
   const steps = [
     {
       imgSrc: 'clipboard-icon.png',
@@ -58,4 +57,4 @@ const FirstPopUp = () => {
   );
 };
 
-export default FirstPopUp;
+export default SecondPopUp;
